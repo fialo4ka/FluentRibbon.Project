@@ -1,0 +1,36 @@
+﻿<fluent:RibbonWindow x:Class="ImageBinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImageBinding"
+        xmlns:gc="clr-namespace:ImageBinding"             
+        xmlns:fluent="urn:fluent-ribbon"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Name="dockMain" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <fluent:Ribbon x:Name="ribbonMain" Grid.Row="0">
+            <fluent:Ribbon.QuickAccessItems />
+            <fluent:Ribbon.Menu>
+                <fluent:Backstage Name="flBackstage" Header="Übersicht">
+                    <fluent:BackstageTabControl>
+                        <fluent:BackstageTabItem Header="Arbeitsvorrat" x:Name="test">
+                        </fluent:BackstageTabItem>
+                        <fluent:BackstageTabItem Header="Rollen" />
+                        <fluent:BackstageTabItem Header="Handbuch" />
+                        <fluent:SeparatorTabItem />
+                        <fluent:BackstageTabItem Header="Optionen" >
+                        </fluent:BackstageTabItem>
+                        <fluent:Button Header="Schließen" />
+                    </fluent:BackstageTabControl>
+                </fluent:Backstage>
+            </fluent:Ribbon.Menu>
+        </fluent:Ribbon>
+    </Grid>
+
+</fluent:RibbonWindow>
+

@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:ImageBinding">
+
+    <ImageSource x:Key="Zoom">/Images/zoom_24px.png</ImageSource>
+    <ImageSource x:Key="Zusat">/Images/zusatzbrief_24px.png</ImageSource>
+    <ImageSource x:Key="ArrowUp">/Images/arrow_up_24px.png</ImageSource>
+    <ImageSource x:Key="ArrowR">/Images/ArrowRightGreen_24px.png</ImageSource>
+    <ImageSource x:Key="Mis">/Images/check_missing.png</ImageSource>
+    <ImageSource x:Key="Ok">/Images/check_ok.png</ImageSource>
+    <ImageSource x:Key="Delete">/Images/delete_24px.png</ImageSource>
+    <ImageSource x:Key="Delete2">/Images/delete.png</ImageSource>    
+    <ImageSource x:Key="Dublicate">/Images/check_ok_24px.png</ImageSource>
+    <ImageSource x:Key="Uebername">/Images/ArrowRightGreen_24px.png</ImageSource>
+
+    <ImageSource x:Key="new">/Images/new.png</ImageSource>
+    <ImageSource x:Key="revert">/Images/revert.png</ImageSource>
+    <ImageSource x:Key="save">/Images/save.png</ImageSource>
+    <ImageSource x:Key="saveas">/Images/saveas.png</ImageSource>
+    <ImageSource x:Key="dublicate">/Images/dublicate.png</ImageSource>     
+</ResourceDictionary>
